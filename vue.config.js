@@ -1,11 +1,9 @@
 module.exports = {
-  configureWebpack: {
-    
-    config.performance = {
-      maxEntrypointSize: 10000000,
-      maxAssetSize: 30000000
-    }
-    
+  performance: {
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+  },
+  configureWebpack: {    
     module: {
       rules: [
         {
