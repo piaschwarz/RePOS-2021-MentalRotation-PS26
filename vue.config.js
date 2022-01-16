@@ -21,6 +21,6 @@ module.exports = {
   },
   publicPath:
     process.env.NODE_ENV === 'production'
-      ? 'test/' + require('./package.json').name + '/'
+      ? '/' + require('./package.json').name + '/test'
       : '/'
 };
