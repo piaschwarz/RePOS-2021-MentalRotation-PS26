@@ -21,6 +21,6 @@ module.exports = {
   },
   publicPath:
     process.env.NODE_ENV === 'production'
-      ? '/RePOS-2021-MentalRotation-PS26/'
+      ? '/' + require('./package.json').name + '/'
       : '/'
 };
